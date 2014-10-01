@@ -1,0 +1,310 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+	color: #000;
+	background: rgb(236, 236, 236);
+}
+
+#mainblock {
+	width: 1024px !important;
+	background-position: center top;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+#menu {
+	width: 450px;
+	height: 100px;
+}
+
+#menu {
+	width: 1023px;
+}
+
+#loginblock {
+	width: 550px;
+	height: 100px;
+	float: right;
+	margin: 0px;
+	padding: 17px 0 0 27px;
+}
+
+#usernamelogin {
+	width: 70px;
+	height: 14px;
+	float: left;
+	margin: 0px;
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+#input {
+	width: 150px;
+	height: 21px;
+	float: left;
+	padding: 0px;
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+#passwordlogin {
+	width: 70px;
+	height: 14px;
+	float: left;
+	font-family: MS Sans Serif;
+	font-size: 12px;
+}
+
+#input02 {
+	width: 150px;
+	height: 21px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	font-family: MS Sans Serif;
+	font-size: 10px;
+	color: #95844d;
+}
+
+#loginbutton {
+	width: 60px;
+	height: 23px;
+	float: left;
+	margin: 0 0 0 20px;
+	padding: 0px;
+}
+
+#member {
+	width: 400px;
+	height: 34px;
+	/* float: left; */
+	margin: 9px 0 0 0;
+	padding: 0px;
+	font-family: MS Sans Serif;
+	font-size: 13px;
+	/* color:#ab8e4e; */
+}
+
+.task {
+	width: 1000px;
+	height: 200px;
+	border: 3px solid #666;
+	padding: 10px;
+	margin: 10px;
+}
+
+.titleblock {
+	width: 980px;
+	height: 22px;
+	padding: 1px;
+	margin: 5px;
+}
+
+#title {
+	width: 540px;
+}
+
+.tasktitle {
+	width: 680px;
+	height: 20px;
+	float: left;
+	/* border: 1px solid #666; */
+}
+
+.buttondelete {
+	width: 80px;
+	height: 20px;
+	float: right;
+	/* border: 1px solid #666; */
+}
+
+.buttonedit {
+	width: 120px;
+	height: 20px;
+	float: right;
+	/* border: 1px solid #666; */
+}
+
+.taskdescription {
+	width: 980px;
+	height: 120px;
+	border: 1px solid #888;
+	padding: 1px;
+	margin: 5px;
+}
+
+.taskdate {
+	width: 170px;
+	height: 25px;
+	float: left;
+	/* 	padding: 10px; */
+	margin: 10px;
+}
+
+.taskstatus {
+	color: green;
+	width: 120px;
+	height: 25px;
+	float: left;
+	/* 	padding: 10px; */
+	margin: 10px;
+}
+
+.taskstatusnotresolved {
+	color: red;
+	width: 120px;
+	height: 25px;
+	float: left;
+	/* 	padding: 10px; */
+	margin: 10px;
+}
+
+.taskuser {
+	width: 250px;
+	height: 25px;
+	float: left;
+	/* 	padding: 10px; */
+	margin: 10px;
+}
+
+.taskperformer {
+	width: 250px;
+	height: 25px;
+	float: left;
+	/* 	padding: 10px; */
+	margin: 10px;
+}
+
+.taskform {
+	width: 1000px;
+	height: 200px;
+	border: 3px solid #666;
+	padding: 10px;
+	margin: 10px;
+}
+
+.titleblockform {
+	width: 740px;
+	height: 22px;
+	padding: 1px;
+	margin: 5px;
+}
+
+.taskdescriptionform {
+	width: 980px;
+	height: 120px;
+	/* border: 1px solid #888; */
+	padding: 1px;
+	margin: 5px;
+}
+
+#description {
+	width: 980px;
+	height: 118px;
+}
+
+.taskuserform {
+	width: 170px;
+	height: 25px;
+	float: left;
+	/* 	padding: 10px; */
+	margin: 10px;
+}
+
+.taskperformerform {
+	width: 100px;
+	height: 25px;
+	float: left;
+	/* 	padding: 10px; */
+	margin: 10px;
+}
+
+.tasksubmitform {
+	width: 100px;
+	height: 25px;
+	float: left;
+	/* 	padding: 10px; */
+	margin: 10px;
+}
+
+.error {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+.msg {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+
+#login-box {
+	width: 300px;
+	padding: 20px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	margin: auto;
+	background: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border: 1px solid #000;
+}
+
+.errortext {
+	color: #ff0000;
+}
+
+.errorblock {
+	color: #000;
+	background-color: #ffEEEE;
+	border: 2px solid #ff0000;
+	padding: 8px;
+	margin: 16px;
+}
+
+.taskresolvedform {
+	width: 150px;
+	height: 25px;
+	float: left;
+	/* 	padding: 10px; */
+	margin: 10px;
+}
+
+.taskresultform {
+	width: 980px;
+	height: 120px;
+	padding: 1px;
+	margin: 5px;
+	clear: left;
+}
+
+.taskformedit {
+	width: 1000px;
+	height: 400px;
+	border: 3px solid #666;
+	padding: 10px;
+	margin: 10px;
+}
+
+#result {
+	width: 980px;
+	height: 118px;
+}
+
+.tasksubmitformedit {
+	width: 100px;
+	height: 25px;
+	float: left;
+	/* 	padding: 10px; */
+	margin: 10px;
+}
